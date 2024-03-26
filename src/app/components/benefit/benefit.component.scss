@@ -1,0 +1,27 @@
+@import "../../../color-variables.scss";
+
+.benefit-card {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: "Popins", sans-serif;
+  margin: 0px 40px;
+  max-width: 100%;
+
+  h4 {
+    color: $primary-text;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    color: $secondary-text;
+    max-width: 500px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
